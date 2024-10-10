@@ -42,6 +42,49 @@ body {
         background-color: #cbe6e9; 
         padding-left: 20px;
       }
+
+      header .sidenav .em_em {
+        position: absolute;
+        right: 15%;
+        padding: 5px;
+        top:10%;
+
+      }
+
+
+
+      header .sidenav .job_skr {
+        position: relative;
+        background-color:#63ff09;
+        padding: 10px;
+        float: left;
+        margin-right: 15px;
+        text-decoration: none;
+        padding: 5px 15px 5px 15px;
+        border-radius: 50px;
+      } 
+
+      header .sidenav .employer {
+        position: relative;
+        background-color:#0a1b7e;
+        padding: 10px;
+        float: left;
+        padding: 5px 10px 5px 10px;
+        border-radius: 50px;
+      } 
+
+      header .sidenav .employer a {
+        text-decoration: none;
+        color: #e6eeed;
+        font-weight: bold;
+        
+      }
+
+      header .sidenav .job_skr a {
+        text-decoration: none;
+        color: #e6eeed;
+        font-weight: bold;
+      }
       
       /************** LOGO  **********************/
       
@@ -209,9 +252,9 @@ section #textBox .text-container .call-us {
     left: 0;
     width: 100%;
     height: 1300px;
-    background-color: rgb(166, 189, 183);
+    background-color: rgb(105, 165, 192);
     clip-path: circle(600px at right 800px);
-    opacity: 50%;
+    opacity: 15%;
 }
 
 section #header-text .numbertext{ 
