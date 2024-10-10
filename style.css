@@ -744,7 +744,8 @@ header .sidenav ul li {
      height: 36px;
      list-style-type: none;
      color: rgb(237, 255, 255);
-     
+     font-size: 15px;
+     font-weight:500;
 }
 
 header .sidenav ul li:hover {
@@ -805,29 +806,11 @@ a.active, a:hover {
 }
 
 
-@media (min-width: 768px) {
 
-  header ul li .apply {
-    display: none;
-    
-    
-  }
-
-}
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 
   /* LOGO */
-  header .logo-image{
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace; 
-    color: rgb(36, 37, 37);
-    height: 60px;
-    width: 60px;
-    text-decoration: none;
-    transform: rotate(180deg);
-    
-  }
 
   #menu-bar{
     float: right;
