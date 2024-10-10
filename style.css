@@ -45,20 +45,21 @@ body {
       
       /************** LOGO  **********************/
       
-      header .logo-image{
-        padding: 0;
-        font-family: 'Courier New', Courier, monospace; 
-        color: rgb(36, 37, 37);
-        height: 80px;
-        width: 80px;
-        text-decoration: none;
-        transform: rotate(0deg);
+       header .logo{
+        position: absolute;
+        display: flex;
+        float: right;
+        left: 2%;
+        top: 20%;
+        justify-self: center;
+        padding-right: 5px;
         
-      }
+      } 
 
       header .logo span{
         color: #557c3e;
-        font-weight: 800;
+        font-weight: 600;
+        font-size: 23px;
       }
 
       /****************************************Lets talk******************************************************/
@@ -227,31 +228,7 @@ section #header-text .numbertext img {
 }
 
 /* Hide the images by default */
-.text-container .slideshow-container .mySlides {
-  position: relative;
-  display: none;
-  color: #cfd1e2;
-  width: 50%;
-  margin-bottom: 30px;
-}
 
-
- .mySlides h2 {
-  font-size: 25px;
-  color: #173459;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.8s;
-  transition: 1s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 
 /* HOME PAGE */
@@ -727,17 +704,17 @@ header .sidenav ul {
     position: absolute;
     display: flex;
     float: right;
-    right: 0;
+    left: 20%;
     top: 20%;
     justify-self: center;
     color: whitesmoke;
-    padding-right: 20px;
+    padding-right: 5px;
     
     
 }
 
 header .sidenav ul li {
-     padding: 0 20px;
+     padding: 0 5px;
      height: 36px;
      list-style-type: none;
      color: rgb(237, 255, 255);
