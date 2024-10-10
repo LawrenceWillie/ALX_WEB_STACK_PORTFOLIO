@@ -124,6 +124,20 @@ section #textBox .demo {
     border: none;
 }
 
+section #image_box .ima_container{
+    position: relative;
+    height: 400px;
+    width: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+
+}
+
+section #image_box .image-container img {
+    width:100%;
+    height: auto;
+}
+
 section #textBox .mySlides{
   text-align: left;
 }
@@ -195,7 +209,7 @@ section #textBox .text-container .call-us {
     left: 0;
     width: 100%;
     height: 1300px;
-    background-color: rgb(245, 189, 5);
+    background-color: rgb(166, 189, 183);
     clip-path: circle(600px at right 800px);
     opacity: 50%;
 }
