@@ -37,9 +37,9 @@ body {
 
       header {
         width: 100%;
-        height: 90px;
+        height: 80px;
         position: relative;
-        background-image:  radial-gradient(rgb(255, 255, 255), rgb(228, 228, 217)); 
+        background-color: #cbe6e9; 
         padding-left: 20px;
       }
       
@@ -100,19 +100,31 @@ body {
 
 section #header-text {
   position: relative;
-  padding: 0;
-  background-image:  radial-gradient(rgb(0, 0, 0), rgb(37, 33, 33)); 
+  padding: 20px;
+  background-color: #cbe6e9; 
   overflow: hidden;
+  height:auto;
 }
 
-section #textBox .text-container{
-  position: relative;
-  padding: 5px;
-  /* height: 350px; */
+section #textBox h1 {
+  font-size: 75px;
+}
+section #textBox .sm_text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+section #textBox .demo {
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    font-weight: 450;
+    font-size: 18px;
+    background-color: #0c1438;
+    color: #e6eeed;
+    border: none;
 }
 
 section #textBox .mySlides{
-  /* position:absolute; */
   text-align: left;
 }
 
