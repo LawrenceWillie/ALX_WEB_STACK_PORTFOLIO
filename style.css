@@ -85,6 +85,14 @@ body {
         color: #e6eeed;
         font-weight: bold;
       }
+
+      header .sidenav .login {
+        padding: 10px;
+        background-color: #f1d00f;
+        padding: 5px 10px 5px 10px;
+        border-radius: 50px;
+        
+      }
       
       /************** LOGO  **********************/
       
