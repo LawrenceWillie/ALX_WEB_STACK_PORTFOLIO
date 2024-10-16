@@ -291,26 +291,101 @@ section #image_box .image-container img {
 }
 
 /********************LOGIN FORM*****************************/
-.row #form_pic {
+.row .form-container {
   position: relative;
-  height: 100vh;
+  margin: 20px;
+  padding: 15px;
+  background-image:  radial-gradient(rgb(255, 255, 255), rgb(228, 228, 217)); 
+  color: white;
+  box-shadow: 0 15px 10px 0 rgb(0, 0, 0, 0.3), 0 7px 21px 0 rgb(0, 0, 0, 0.20);
+  border-radius: 20px;
+}
+
+.row .form-container .input-cnt {
+  position: relative;
+  display: flex;
+  margin-bottom: 15px;
   width: 100%;
 }
 
-.row #form_pic .pic_container {
+.row .form-container .input-cnt:last-child {
+  margin-bottom: 0px;
   position: relative;
-  width: 100%;
-}
- 
-.row #form_pic .pic_container img{
-  width: 100%;
 }
 
-.row #login_form {
+.row .form-container .input-cnt > i {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ min-width: 40px;
+ padding: 10px;
+ text-align: center;
+ background: lightgrey;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+ color: #ffffff;
   
-  position: relative;
 }
 
+.row .form-container .input-cnt:hover > i {
+  display: flex;
+  justify-content: center;
+  background: #2e3135;
+  color: white;
+ 
+}
+
+.row .form-container form .input-cnt #name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .form-container .input-cnt > input[type="text"], .input-cnt > textarea {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border: 1px solid grey;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+
+.row .form-container .input-cnt #name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .form-container .input-cnt .password{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.row .form-container textarea {
+  padding: 60px 10px;
+}
+
+.row .form-container .input-cnt > input[type="submit"] {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 105%;
+  padding: 8px;
+  color: #232425;
+  background: white;
+  transition-duration: .5s;
+}
+
+.row .form-container .input-cnt > input[type="submit"]:hover {
+  color: white;
+  background: #232425;
+} 
 
 
 /* END HOME PAGE */

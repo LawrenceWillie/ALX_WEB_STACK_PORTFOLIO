@@ -16,7 +16,7 @@
             <div class="pic_container">
                 <img src="images/login_f_pic.jpg" alt="image">
             </div>
-            <p class="text">
+           <!-- <p class="text">
                 <h1>
                     JOIN OUR JOIN OUR
                     COMMUNITY
@@ -26,22 +26,28 @@
                     cleaners, drivers and factory workers on a permanent basis to general helpers,
                     marshals and barmen for a once-off event.
                 </h4>
-            </p>
+            </p> -->
 
         </div>
         <div id="login_form" class="col-lg-6 col-md-12">
-            <!-- login.html -->
-             <h1>JOBHUBSA</h1>
-             <h3>Log in to your account</h3>
-            <form action="/login" method="post">
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Login</button>
-            </form>
-            <div class="bottom_text">
-                <p>Register a new account:</p>
-                <h5 > <a href="signup.html"> Sign Up</a></h5>
-            </div>
+            <!------------Log in form---------------------->
+            <div class="form-container">
+				<form method="post" action="#">
+					<div class="input-cnt">
+						<i id="name" class="fas fa-envelope"></i>
+						<input type="text" placeholder="email" name="email" >
+					</div>
+
+				<div class="input-cnt">
+					<i id="name" class="fas fa-lock"></i>
+					<input class="password" type="password" name="password" placeholder="Password" required>
+				</div>
+				<div  class="input-cnt">
+					<input id="updates" onclick="update()" type="submit" />
+				</div>
+				
+				</form>
+				</div>
         </div>
     </div>
 
