@@ -217,11 +217,13 @@ section #image_box .image-container img {
 
 /* *****************Start home page**************** */
 /* ****************************Employee_Employer cards********************************/
+.row #Card_seeker {
+  padding: 15px;
+}
 .row #Card_seeker .container {
   position: relative;
-  border: 1px solid #000;
   border-radius: 35px;
-  width: 100%;
+  width: 80%;
   height: auto;
   background-color: #e6f0f1; 
   padding: 20px;
@@ -527,17 +529,6 @@ a.active, a:hover {
     
 }
 /* *******************************MYSLIDES TEXT */
-section #textBox .mySlides {
-  margin-left: 20%;
-  
-}
-
-section #textBox .mySlides h2{
-  text-align: center;
-  font-size: 25px;
-}
-
-
 header ul li .apply {
   display: inline-block;
   padding: 8px 20px;
@@ -548,8 +539,52 @@ header ul li .apply {
   letter-spacing: 1px;
   text-decoration: none;
   border: 0.5px solid #000000;
-  
-  
+}
+
+/********************The employer__Employee Cards****************************/
+.jst_text h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.jst_text p {
+  font-size: 14px;
+}
+.row #Card_seeker .container{
+  width: 65%;
+}
+.row #Card_seeker .container .image_container{
+  position: relative;
+  width: 70%;
+  height: 250px;
+}
+.row #Card_seeker .container .image_container img {
+  position: relative;
+  width: 100%;
+  height: max-content;
+}
+
+.row #Card_seeker .container h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.row #Card_seeker .container p {
+  font-size: 14px;
+  font-weight:400;
+}
+
+.row #Card_seeker .container button {
+  width: 60%;
+  padding: 10px;
+  background-color: #69bb5e;
+  border-radius: 35px;
+  border: none;
+}
+.row #Card_seeker .container button a {
+  text-decoration: none;
+  color: #e6eeed;
+  font-weight: 500;
+  font-size: 13px;
   
 }
   /* End Header */
