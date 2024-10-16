@@ -229,7 +229,15 @@ section #image_box .image-container img {
   
 }
 .row #Card_seeker .container span {
-  /* position: absolute; */
+  border: 1px solid ;
+  border-radius: 35px;
+  padding: 3px;
+}
+
+.row #Card_seeker .container span a{
+  text-decoration: none;
+  font-size: small;
+  color: #222;
 }
 
 .row #Card_seeker {
@@ -244,9 +252,8 @@ section #image_box .image-container img {
 
 .row #Card_seeker .container .image_container{
   position: relative;
-  width: 250px;
+  width: 85%;
   height: 290px;
-  border: 1px solid;
 }
 .row #Card_seeker .container .image_container img {
   position: relative;
