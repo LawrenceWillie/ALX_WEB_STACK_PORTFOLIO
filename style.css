@@ -294,11 +294,12 @@ section #image_box .image-container img {
 .row .form-container {
   position: relative;
   margin: 20px;
-  padding: 15px;
+  padding: 20px;
   background-image:  radial-gradient(rgb(255, 255, 255), rgb(228, 228, 217)); 
   color: white;
   box-shadow: 0 15px 10px 0 rgb(0, 0, 0, 0.3), 0 7px 21px 0 rgb(0, 0, 0, 0.20);
   border-radius: 20px;
+  height: auto;
 }
 
 .row .form-container .input-cnt {

@@ -2,7 +2,7 @@
 const navLinks = document.querySelectorAll('.nav-link');
 
 // Get all content divs
-const contents = document.querySelectorAll('.em_contain');
+const contents = document.querySelectorAll('.container');
 
 // Add event listeners to each navigation link
 navLinks.forEach(link => {
