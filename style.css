@@ -248,6 +248,7 @@ section #image_box .image-container img {
 }
 
 .row #Card_seeker .container  .img_1st_container{
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -255,7 +256,7 @@ section #image_box .image-container img {
 .row #Card_seeker .container .image_container{
   position: relative;
   width: 85%;
-  height: 290px;
+  height: auto;
 }
 .row #Card_seeker .container .image_container img {
   position: relative;
