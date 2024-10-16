@@ -290,6 +290,26 @@ section #image_box .image-container img {
   
 }
 
+/********************LOGIN FORM*****************************/
+.row #form_pic {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.row #form_pic .pic_container {
+  position: relative;
+  width: 100%;
+}
+ 
+.row #form_pic .pic_container img{
+  width: 100%;
+}
+
+.row #login_form {
+  
+  position: relative;
+}
 
 
 
