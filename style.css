@@ -291,14 +291,19 @@ section #image_box .image-container img {
 }
 
 /********************LOGIN FORM*****************************/
+#sign_up .container .form-container {
+  border: 1px solid #000;
+  overflow-y: scroll;
+}
+
+/* Hide all content by default */
 .row .form-container {
   position: relative;
   margin: 20px;
   padding: 20px;
   background-image:  radial-gradient(rgb(255, 255, 255), rgb(228, 228, 217)); 
   color: white;
-  box-shadow: 0 15px 10px 0 rgb(0, 0, 0, 0.3), 0 7px 21px 0 rgb(0, 0, 0, 0.20);
-  border-radius: 20px;
+  border-radius: 35px;
   height: auto;
 }
 
@@ -362,8 +367,12 @@ section #image_box .image-container img {
 
 .row .form-container .input-cnt .password{
   width: 100%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row .form-container textarea {
@@ -378,8 +387,8 @@ section #image_box .image-container img {
   margin: 0 auto;
   font-size: 105%;
   padding: 8px;
-  color: #232425;
-  background: white;
+  color: #f1f1f1;
+  background: #3adb50;
   transition-duration: .5s;
 }
 
@@ -387,6 +396,8 @@ section #image_box .image-container img {
   color: white;
   background: #232425;
 } 
+
+
 
 
 /* END HOME PAGE */
