@@ -218,7 +218,7 @@ section #image_box .image-container img {
 /* *****************Start home page**************** */
 /* ****************************Employee_Employer cards********************************/
 .row #Card_seeker {
-  padding: 15px;
+  padding: 10px;
 }
 .row #Card_seeker .container {
   position: relative;
@@ -226,7 +226,7 @@ section #image_box .image-container img {
   width: 80%;
   height: auto;
   background-color: #e6f0f1; 
-  padding: 20px;
+  padding: 7px;
   
   
 }
