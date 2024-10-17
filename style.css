@@ -291,6 +291,29 @@ section #image_box .image-container img {
 }
 
 /********************Sign up Form*************************/
+.container #content1 .employe_yer_links {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container #content1 .employe_yer_links h4{
+  padding: 15px;
+  font-size: medium;
+  background-color: #69bb5e;
+  margin: 10px;
+  border-radius: 35px;
+}
+
+.container #content1 .employe_yer_links h4:hover {
+  cursor: pointer;
+}
+
+.container #content1 .employe_yer_links h4 a {
+  padding: 20px;
+}
 #form_pic {
   position: relative;
   height: 100%;
