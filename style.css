@@ -312,7 +312,7 @@ section #image_box .image-container img {
 }
 
 .container #content1 .employe_yer_links h4 a {
-  padding: 20px;
+  padding:5px;
 }
 #form_pic {
   position: relative;
@@ -501,9 +501,10 @@ section #image_box .image-container img {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
-  color: rgb(238, 238, 238);
+  background-color: #fdfcfc;
+  color: rgb(24, 20, 20);
 }
+
 .panel-footer div.row {
   margin-bottom: 35px;
 }
