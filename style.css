@@ -290,21 +290,90 @@ section #image_box .image-container img {
   
 }
 
-/********************LOGIN FORM*****************************/
-#sign_up .container .form-container {
-  border: 1px solid #000;
-  overflow-y: scroll;
+/********************Sign up Form*************************/
+#form_pic {
+  position: relative;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
+
+#form_pic .text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#form_pic .pic_container {
+  position: relative;
+
+}
+
+#login_sin_row #form_pic .text h1{
+  font-weight: 900;
+  color: #3adb50;
+}
+/* #form_pic .pic_container img{
+  width: 100%;
+  height: auto;
+} */
+
+ #login_sin_row {
+    position: relative;
+    overflow-y: none;
+   background-image: url("images/login_f_pic.jpg");
+   background-attachment: fixed;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* 
+#form_pic {
+  position: relative;
+  overflow-y: none;
+ background-image: url("images/login_f_pic.jpg");
+ background-attachment: fixed;
+ height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+} */
+
+#sign_up .container{
+  position: relative;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+
+}
+#sign_up .container #content1 h2, #sign_up .container #content1 h4, #sign_up .container .login_text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#sign_up .container .form-container {
+  background-attachment: fixed;
+  overflow-y: scroll;
+  background-image: brown;
+}
+
 
 /* Hide all content by default */
 .row .form-container {
   position: relative;
   margin: 20px;
   padding: 20px;
-  background-image:  radial-gradient(rgb(255, 255, 255), rgb(228, 228, 217)); 
   color: white;
   border-radius: 35px;
-  height: auto;
+  height: 450px;
+
 }
 
 .row .form-container .input-cnt {

@@ -11,38 +11,59 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="row"> <!-------------LOgin form--------------------->
+    <div id="login_sin_row" class="row"> <!-------------LOgin form--------------------->
         <div id="form_pic" class="col-lg-6 col-md-12">
-            <h1>Hello</h1>
-         <!---- <div class="pic_container">
+          <!--  <h1>Hello</h1>
+            <div class="pic_container">
                 <img src="images/login_f_pic.jpg" alt="image">
-            </div>
-            <p class="text">
-                <h1>
-                    JOIN OUR JOIN OUR
+            </div> -->
+           <p class="text" style="display: block;
+                                    justify-content:center;
+                                    align-items:center;
+           ">
+                <h1 style="
+                font-weight: 900; 
+                color:rgb(141, 164, 184);
+                font-size:50px
+                
+                ">
+                    JOIN OUR
                     COMMUNITY
                 </h1>
-                <h4>
-                    JOBJACK has thousands of job seekers looking for entry-level jobs - from waiters, cashiers,
+                <h4 style="
+                font-weight: 400; 
+                
+                ">
+                    JOBHUBSA has thousands of job seekers looking for entry-level jobs - from waiters, cashiers,
                     cleaners, drivers and factory workers on a permanent basis to general helpers,
                     marshals and barmen for a once-off event.
                 </h4>
             </p>
-        -->
+        
         </div>
 
         <div id="sign_up" class="col-lg-6 col-md-12">
             <!-- Sign_UP -->
             <div class="container">
                 <div id="content1" class="content">
+                    <h2>JOBHUBSA</h2>
+                    <h4>Job Seeker Registration</h4>
                     <div class="form-container">
-                        <h2>Content for Menu 552</h2>
-                    <p>This is the content for the second menu.</p>
                         <form method="post" >
                             <!-- <?php include('errors.php'); ?> -->
                             <div class="input-cnt">
                             <i id="name" class="fas fa-user"></i>
-                            <input type="text" name="username" placeholder="Username" required>
+                            <input type="text" name="username" placeholder="First Name" required>
+                            </div>
+
+                            <div class="input-cnt">
+                                <i id="name" class="fas fa-user"></i>
+                                <input type="text" name="username" placeholder="Last Name" required>
+                            </div>
+
+                            <div class="input-cnt">
+                                <i id="name" class="fas fa-user"></i>
+                                <input type="text" name="username" placeholder="Username" required>
                             </div>
             
                             <div class="input-cnt">
@@ -72,17 +93,10 @@
                         </form>
                     </div>    
                 </div>
-        
-                <div id="content2" class="content">
-                    <h2>Content for Menu 2</h2>
-                    <p>This is the content for the second menu.</p>
-                </div>
+                <div class="login_text">
+                  <div style="font-size: small;">Already have an account?</div><a style="font-size:large; padding:10px;" href="login.html">Log in</a>
+                </div> 
             </div>
-
-            
-            <div class="login_text">
-                <a href="login.html">Log in</a>
-            </div>  
         </div>
     </div>
 <script src="js/employer_employe_forms.js"></script> 
